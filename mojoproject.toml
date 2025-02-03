@@ -1,0 +1,17 @@
+[project]
+authors = ["Carl Caulkett <carl.caulkett@gmail.com>"]
+channels = [
+  "https://conda.modular.com/max-nightly",
+  "https://repo.prefix.dev/modular-community",
+  "conda-forge",
+]
+description = "Add a short description here"
+name = "ca_ga"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+default = "magic run mojo first_test.mojo"
+
+[dependencies]
+max = "*"
