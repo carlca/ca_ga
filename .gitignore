@@ -32,3 +32,4 @@ replay_pid*
 *.egg-info
 # magic environments
 .magic
+magic.lock
