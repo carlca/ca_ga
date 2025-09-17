@@ -1,0 +1,32 @@
+Thread   Start(us)  B/E     Dur(us)  Name/Detail
+------  ----------  ---  ----------  ------------------------------
+   259      996417  BEG        4526  LowerSemanticCF
+   259     1000943  END        4526  LowerSemanticCF
+   259     1000945  BEG       31579  CheckLifetimes
+   259     1002731  BEG          11  (A) SymbolTableAnalysis
+   259     1002742  END          11  (A) SymbolTableAnalysis
+   259     1032524  END       31579  CheckLifetimes
+   259     1032527  BEG        2883  AnnotateKernels
+   259     1035411  END        2883  AnnotateKernels
+   259     1035414  BEG         597  VerifyKernels
+   259     1036012  END         597  VerifyKernels
+   259    30820882  BEG        3050  LowerSemanticCF
+   259    30823933  END        3050  LowerSemanticCF
+   259    30823934  BEG       27870  CheckLifetimes
+   259    30825971  BEG           9  (A) SymbolTableAnalysis
+   259    30825980  END           9  (A) SymbolTableAnalysis
+   259    30851805  END       27870  CheckLifetimes
+   259    30851808  BEG        1635  AnnotateKernels
+   259    30853443  END        1635  AnnotateKernels
+   259    30853445  BEG         301  VerifyKernels
+   259    30853746  END         301  VerifyKernels
+   259   100551469  BEG        3588  LowerSemanticCF
+   259   100555057  END        3588  LowerSemanticCF
+   259   100555059  BEG       27548  CheckLifetimes
+   259   100556748  BEG          17  (A) SymbolTableAnalysis
+   259   100556766  END          17  (A) SymbolTableAnalysis
+   259   100582607  END       27548  CheckLifetimes
+   259   100582610  BEG        1722  AnnotateKernels
+   259   100584332  END        1722  AnnotateKernels
+   259   100584334  BEG         294  VerifyKernels
+   259   100584628  END         294  VerifyKernels

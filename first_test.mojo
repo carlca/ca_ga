@@ -24,7 +24,7 @@ fn generate_population(size: Int, lower_bound: Int, upper_bound: Int) -> List[Ch
       keep(chromosome)
       chromosome[0] = Int64(gene) # set the first (and only) element to gene
       population.append(chromosome)
-  return population
+  return population^
 
 # 4. Selection: Tournament selection
 fn tournament_selection(population: List[Chromosome], tournament_size: Int) -> Chromosome:
@@ -94,7 +94,7 @@ fn genetic_algorithm(pop_size: Int, lower_bound: Int, upper_bound: Int, generati
       new_population.append(mutated_child1)
       new_population.append(mutated_child2)
 
-    population = new_population
+    population = new_population^
 
   # Find the best chromosome in the final population
 

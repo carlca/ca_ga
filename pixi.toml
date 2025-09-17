@@ -11,7 +11,8 @@ platforms = ["osx-arm64"]
 version = "0.1.0"
 
 [tasks]
-default = "magic run mojo first_test.mojo"
+default = "pixi run mojo first_test.mojo"
 
 [dependencies]
-max = "*"
+# max = "*"
+mojo = ">=0.25.6.0.dev2025091705,<0.26.0.0"
